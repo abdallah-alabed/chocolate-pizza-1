@@ -1,0 +1,123 @@
+body {
+    width: 950px;
+    margin: auto;
+}
+
+header {
+    width: 950px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 200px;
+}
+
+header div {
+    display: grid;
+    grid-template-columns: 45px 230px;
+    gap: 0px;
+    text-align: left;
+}
+
+header div section {
+    display: grid;
+    grid-template-rows: 26px 20px;
+    gap: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+}
+
+#HBtext {
+    font-size: 28px;
+    font-family: cursive;
+}
+
+#HStext {
+    color: rgba(75, 71, 71, 0.6);
+    float: left;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+}
+
+.div1 {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 400px;
+    align-items: center;
+}
+
+.div12 {
+    display: grid;
+    grid-template-columns: 20px 20px;
+    align-items: center;
+}
+
+main img {
+    width: 100%;
+}
+
+.HStextin {
+    text-indent: 20px;
+    color: rgba(75, 71, 71, 0.6);
+    float: left;
+}
+
+.background {
+    background-image: url("https://github.com/LTUC/amman-201d34/blob/master/class-10/lab-a/lab-assets/list-bg.png?raw=true");
+    columns: 2;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+.container input:checked~.checkmark {
+    background-color: #2196F3;
+}
