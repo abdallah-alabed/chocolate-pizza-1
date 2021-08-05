@@ -121,3 +121,53 @@ main img {
 .container input:checked~.checkmark {
     background-color: #2196F3;
 }
+
+#van {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+#van img {
+    width: 100px;
+    height: 100px;
+}
+h2{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 2px;
+    
+}
+
+
+
+.space3 {
+    border: 1px solid rgba(187, 187, 187, 0.637);
+    border-style: solid;
+
+    
+}
+footer img {
+    padding-left: 450px;
+    margin: auto;
+}
+
+#copyrights {
+    margin: auto;
+    padding-left: 360px;
+}
+
+
+#last {
+    margin: auto;
+    padding-left: 370px;
+}
+button {
+    border-radius: 12px;
+    background-color: rgb(210, 60, 0);
+    color: white;
+    font-size: 20px;}
